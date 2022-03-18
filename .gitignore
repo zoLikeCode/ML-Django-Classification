@@ -6,6 +6,9 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.ipynb_checkpoints/
+.idea/
+machine/migrations/
 bin/
 build/
 develop-eggs/
