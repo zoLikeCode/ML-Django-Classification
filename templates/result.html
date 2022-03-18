@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="background-color: #a1cfff; height: 100vh;">
+        <div style="position: absolute; margin: auto; bottom: 0; top: 0; left: 0; right: 0; width: 300px; height: 100px">
+            <div style="text-align: center;">
+                {% if param == 3 %}
+                    <p style="font-size: 42px ;font-weight: bold; color: green">Very High Cost</p>
+                {% elif param == 2 %}
+                    <p style="font-size: 42px ;font-weight: bold; color: blue">High Cost</p>
+                {% elif param == 1 %}
+                    <p style="font-size: 42px ;font-weight: bold; color: yellow">Medium Cost</p>
+                {% elif param == 0 %}
+                    <p style="font-size: 42px ;font-weight: bold; color: orangered">Low Cost</p>
+                {% elif param == 'error' %}
+                    <p style="font-size: 42px ;font-weight: bold; color: darkred">Error</p>
+                {% endif %}
+                <a style="color: black" href="{% url 'index_url' %}">Back to main page</a>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

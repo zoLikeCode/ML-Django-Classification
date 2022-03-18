@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="center" style="background-color: #5b94ff;">
+        <h1 class="text-center" style="color: white; padding-top: 45px; font-weight: bold">
+            Welcome to
+            project!</h1>
+        <p class="text-center" style="font-size: 24px; color: white">Portfolio project with Machine Learning and
+            Django</p>
+        <p class="text-center" style="font-size: 20px; color: white">ML theme: <a
+                href="https://www.kaggle.com/iabhishekofficial/mobile-price-classification"
+                target="_blank" style="color: white">Mobile Price Classification</a>
+        </p>
+        <p class="text-center" style="font-size: 14px; padding-top: 120px; color: aliceblue">Created by Nikita
+            Zontov and
+            Roman Oleynikov</p>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-5">
+            <form action="{% url 'index_post' %}" method="post">
+                {% csrf_token %}
+                {{ form }}
+                <input type="submit" class="btn btn-primary mt-3" value="Find out the price">
+            </form>
+        </div>
+    </div>
+{% endblock content %}
