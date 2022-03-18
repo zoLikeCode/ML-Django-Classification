@@ -22,3 +22,9 @@
 ![image](https://user-images.githubusercontent.com/70718862/158981753-aad13e3d-b587-4226-83fa-44e3b5ebd958.png)
 
 
+#### 4. Авторы
+
+Никита Зонтов
+
+Роман Олейников
+
