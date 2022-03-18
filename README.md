@@ -24,7 +24,7 @@
 
 #### 4. Авторы
 
-Никита Зонтов
+Поддержка и интегрирование на Django: Никита Зонтов [GitHub](https://github.com/zoLikeCode)
 
-Роман Олейников
+Разработка и обучение ML-модели: Роман Олейников [GitHub](https://github.com/Oleynikov-Roman)
 
